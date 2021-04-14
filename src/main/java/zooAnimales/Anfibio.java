@@ -43,7 +43,7 @@ public class Anfibio extends Animal{
 	}
 	
 	public String movimiento() {
-		return "nadar";
+		return "saltar";
 	}
 	
 	public void setColorPiel(String colorPiel) {
