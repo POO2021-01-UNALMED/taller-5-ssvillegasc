@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pez extends Animal{
 
-	private ArrayList<Pez> listado = new ArrayList<Pez>();
+	private static ArrayList<Pez> listado = new ArrayList<Pez>();
 	public static int salmones;
 	public static int bacalaos;
 	
@@ -28,7 +28,7 @@ public class Pez extends Animal{
 	}
 	
 	public static int cantidadPeces() {
-		return salmones + bacalaos;
+		return listado.size();
 	}
 	
 	public static Pez crearSalmon(String nombre, int edad, String genero) {
