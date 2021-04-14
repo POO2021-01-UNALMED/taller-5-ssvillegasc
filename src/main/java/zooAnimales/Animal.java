@@ -53,7 +53,7 @@ public class Animal {
 	@Override
 	public String toString() {
 		String cadena ="Mi nombre es "+nombre+", tengo una edad de "+edad
-						+", habito en el "+habitat+ " y mi genero es "+genero; 
+						+", habito en "+habitat+ " y mi genero es "+genero; 
 		if(zona != null)
 			cadena += ", la zona en la que me ubico es "+zona.getNombre()
 			+", en el "+zona.getZoo().getNombre(); 
